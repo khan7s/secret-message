@@ -4,7 +4,7 @@ msg = input().lower()
 
 eng = [chr(i).lower() for i in range(65,91)]    
 d = {' ':' '}      
-for i in range(0,len(eng)):
+for i in range(len(eng)):
     d[eng[i]] = eng[-(i+1)]
    
 output = ''
